@@ -6,6 +6,15 @@
 
 function isAnagram(str1, str2) {
 
+const first = str1.toLowerCase().split("").sort().join("");
+const sec = str2.toLowerCase().split("").sort().join("");
+if (first == sec)
+{
+  return true;
+}
+else{
+  return false;  
+}
 }
 
 module.exports = isAnagram;
