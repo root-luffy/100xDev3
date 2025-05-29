@@ -38,6 +38,12 @@ let input = [{
 		price: 1400,
 		category: 'Bacteria',
 		itemName: 'Ketoo',
+	}{
+		id: 4,
+		timestamp: 1656076800003,
+		price: 1400,
+		category: 'Bacteria',
+		itemName: 'Ketoo',
 	}
 ]
 
