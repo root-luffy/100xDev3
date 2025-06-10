@@ -50,7 +50,7 @@ let input = [{
 
 
 function calculateTotalSpentByCategory(transactions) {
-let x = loopover(transactions);
+let xyz = loopover(transactions);
 const myMap = new Map();
 myMap.set(transactions[0].category,)
   return [];
